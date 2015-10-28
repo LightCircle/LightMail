@@ -9,7 +9,6 @@
 "use strict";
 
 var nodemailer  = require("nodemailer")
-  , light       = require("light-core")
   , config      = light.framework.config
   , helper      = light.framework.helper
   , instance    = undefined
